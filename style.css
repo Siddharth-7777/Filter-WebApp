@@ -1,0 +1,23 @@
+h3 {
+    font-size: 25px !important
+}
+
+.btn-warning :hover {
+    background-color: rgb(31, 151, 153);
+}
+
+canvas {
+    animation-name: PoseNet;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes PoseNet {
+    from {
+        box-shadow: 1px 1px 38px yellowgreen;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(77, 66, 230); 
+    }
+}
